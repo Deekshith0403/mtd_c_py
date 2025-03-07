@@ -1,0 +1,46 @@
+MTD COMPITATIVE PROGRAMMING TRANING
+
+DAY1 THURSDAY 06/03/2025
+
+IMPORTANT GTI COMMANDS
+
+$ git status
+// To know the current status of our Repo
+
+$ git clone <URL>
+// To download a Repo
+
+git clone https://github.com/neelmyna/vvce_mar25
+//Example to download the Repo
+ 
+$ git pull origin main 
+// Command to download the updated Repo from the server to the local machine
+
+TO make our computer recognise our git account, we must run these 2 conguration commands:
+
+$ git config --global user.name "Deekshith0403"
+
+$ git config --global user.email "deekshithkm2003@gmail.com"
+
+STEPS TO CREATE A NEW PAT IN GTIHUB:
+ 
+Step1: Login to github
+Step2: Click on the p[rofile 
+Step3: Click on settings
+Step4: Click on developer settings
+Step5: Click on personal access tokens->tokens classic
+Step6: add a note, select expiry->no expiration
+Step7: Slect Repo-> generate token
+Step8: Copy the PAT and mail 
+By doing this we can perform operations without authentication eveytime
+
+$ git clone https://<PAT>@github.com/Deekshith0403/mtd_c_py 
+
+Commands required to upload files from local repo to remote:
+
+$ git add. // Git will mark all the files that need to be updated
+
+$git commit -m "notes file is added"
+// Git creates an object that will include all the files to be uploaded and also it is secured 
+
+$ git push origin main 
