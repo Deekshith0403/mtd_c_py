@@ -43,4 +43,4 @@ $ git add. // Git will mark all the files that need to be updated
 $git commit -m "notes file is added"
 // Git creates an object that will include all the files to be uploaded and also it is secured 
 
-$ git push origin main 
+$ git push origin main // to push the file into git
